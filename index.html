@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advicce</title>
+<style>
+    .center-item{
+        text-align: center;
+        width: auto;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .center-item h1{
+        color: #ff00a5;
+    }
+    .show-advice{
+        margin-top: 20px;
+        background: lightsalmon;
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px; 
+        padding: 10px;
+    }
+    .main-design{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .design{
+        color: #2b5874;
+    }
+</style>
+
+</head>
+<body>
+    <header class="center-item">
+        <h1>Random advice with api</h1>
+        
+        
+           <div class="show-advice">
+            <div id="container">
+                
+            </div>
+           </div>
+      
+    </header>
+        <main class="main-design">
+            <input type="text" id="search-field">
+            <button onclick="search()">Search</button>
+            <button onclick="reloadApi()">Reload</button>
+        </main>
+
+
+    <script src="new.js"></script>
+</body>
+</html>
